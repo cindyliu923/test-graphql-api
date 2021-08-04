@@ -8,6 +8,6 @@ module Types
     # They will be entry points for queries on your schema.
 
     field :notes, resolver: Queries::Notes
-    field :fetch_note, resolver: Queries::FetchNote
+    field :note, resolver: Queries::Note
   end
 end

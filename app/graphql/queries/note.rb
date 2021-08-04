@@ -1,10 +1,10 @@
 module Queries
-  class FetchNote < Queries::BaseQuery
+  class Note < Queries::BaseQuery
     type Types::NoteType, null: false
     argument :id, ID, required: true
 
     def resolve(id:)
-      Note.find(id)
+      ::Note.find(id)
     rescue ActiveRecord::RecordNotFound => _e
       GraphQL::ExecutionError.new('Note does not exist.')
     rescue ActiveRecord::RecordInvalid => e
