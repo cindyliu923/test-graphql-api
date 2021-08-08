@@ -1,24 +1,16 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Practice GraphQL API
 
-Things you may want to cover:
+### Reference
 
-* Ruby version
+- [How To Set Up a Ruby on Rails GraphQL API](https://www.digitalocean.com/community/tutorials/how-to-set-up-a-ruby-on-rails-graphql-api)
+- [HOW TO GRAPHQL - Authentication](https://sayasuhendra.github.io/graphql-ruby/4-authentication/)
+- [GraphQL API style guide](https://docs.gitlab.com/ee/development/api_graphql_styleguide.html)
+- [GraphQL](https://graphql.org)
+- [GraphQL Ruby](https://graphql-ruby.org)
 
-* System dependencies
+### Documentation
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+- [Graphdoc](https://github.com/2fd/graphdoc) creates [static documentation pages](./doc/schema/index.html)
+- [GraphiQL](https://github.com/graphql/graphiql) for development environment
