@@ -12,5 +12,5 @@
 
 ### Documentation
 
-- [Graphdoc](https://github.com/2fd/graphdoc) creates [static documentation pages](./doc/schema/index.html)
+- [Graphdoc](https://github.com/2fd/graphdoc) creates [static documentation pages](./docs/schema/index.html)
 - [GraphiQL](https://github.com/graphql/graphiql) for development environment
